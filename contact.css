@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #25262A;
+    z-index: 100;
+    top: 0;
+}
+
+.pro1-left22 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px 30px 20px;
+}
+
+.contact-i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.connect1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 6rem;
+}
+
+.connect1 ion-icon {
+    padding: 22px;
+    background-color: #27272A;
+    border-radius: 50%;
+    color: #52B986;
+    font-size: 18px;
+    margin-top: 3rem;
+}
+
+.connect1 ion-icon:hover {
+    background-color: #E8E8E8;
+}
+
+.connect2 ion-icon {
+    padding: 22px;
+    background-color: #27272A;
+    border-radius: 50%;
+    color: #52B986;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.connect2 ion-icon:hover {
+    background-color: #E8E8E8;
+}
+
+.connect2 {
+    margin-left: 8rem;
+}
+
+.contactnum {
+    font-family: 'montserrat';
+    color: #E8E8E8;
+}
+
+
+.em,
+.conecth {
+    color: goldenrod;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-three {
+    width: 40%;
+}
+
+.contactform {
+    width: 60%;
+    margin-bottom: 20rem;
+}
+
+#validationTextarea {
+    height: 200px;
+}
+
+
+@media screen and (max-width:888px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .section-three {
+        width: 100%;
+    }
+
+    .contactform {
+        width: 100%;
+    }
+}
